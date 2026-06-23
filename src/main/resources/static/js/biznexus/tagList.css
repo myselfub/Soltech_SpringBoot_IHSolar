@@ -1,0 +1,121 @@
+@charset "UTF-8";
+td,option{font-size:1rem;}
+#tagList{margin-top: 1vh;}
+.ui-dialog{padding:0;}
+select,
+input[type=text],
+input[type=number]{
+	min-height: 30px;
+	height:3vh;	
+	border: 1px solid #ddd;
+	background-color:#fafafa;
+	color:#005E8A;
+}
+#backscreen{width: 100vw; height:100vh; display:none; position:fixed; top:0; left:0; background: #acacae6b; z-index: 99;}
+#drvInfo>tbody>tr input{margin: .5vh;}
+
+.Width-1{width:max(80px, 5vw);}
+.Width-2{width:max(180px, 7.5vw);}
+.Width-3{width:max(230px, 12vw);}
+.Width-4{width:max(350px, 20vw);}
+.Width-6{width:max(550px, 30vw);}
+
+.jsgrid-grid-body{background-color: #fff;}
+.ui-widget-header,
+.ui-dialog-titlebar,
+.jsgrid-header-row>.jsgrid-header-cell{
+	background-color:#0094DA; 
+	color:#fff;
+	font-size: 1rem;
+}
+.jsgrid-header-sortable:hover{background-color: #33A9E1;}
+.jsgrid-header-sort-desc:before{border-color:#fff transparent transparent;}
+.jsgrid-header-sort-asc:before{border-color:transparent transparent #fff ;}
+table.jsgrid-table>tbody>tr.jsgrid-alt-row>td{	/*ì§ìˆ˜ë²ˆì§¸ row ë°°ê²½ìƒ‰*/
+    background-color: rgb(245 252 255);
+}
+table.jsgrid-table>tbody>.jsgrid-selected-row>.jsgrid-cell,	/*ë§ˆìš°ìŠ¤ ì˜¬ë¼ê°„ row*/
+table.jsgrid-table>tbody>tr.jsgrid-highlight-row td.jsgrid-cell{ /*ì„ íƒí•œ row*/
+	background-color: #c4e2ff ;
+	border-color: #c4e2ff ;
+}
+#importTagList{
+	margin-top:1vh;
+}
+.jsgrid-table>tbody tr td{
+	 white-space: nowrap;
+	 overflow: hidden;
+	 text-overflow: ellipsis;  /* ë§ì¤„ìž„ ì ìš© */
+}
+
+.ui-dialog .ui-dialog-title{text-align:center; width:100%;}
+.ui-widget.ui-widget-content{
+	box-shadow: 0 1vh 1vw rgb(0 0 0 / 30%);
+    border-radius: 0.5vw;
+    border:none;
+}
+.ui-dialog .ui-dialog-titlebar {
+    border-top-right-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+}
+.ui-dialog .ui-dialog-buttonpane {
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+}
+.ace-chrome .ace_gutter,
+.ace-chrome .ace_marker-layer .ace_active-line{
+	background-color:#CCEAF8;
+}
+.ace-chrome .ace_gutter-active-line{
+	background-color:#33A9E1;
+	color: #fff;
+}
+
+
+
+.btnSearch,
+.btnImport,
+.btnSave,
+.btnExcel,
+.btnCancel{
+	width: max(7vw,90px);
+	height:3vh;
+	min-height:30px;
+	border-radius:1vw;
+	border:none;
+ 	color:#fff;
+    font-weight: bold;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btnSearch:hover,
+.btnImport:hover,
+.btnSave:hover,
+.btnExcel:hover,
+.btnCancel:hover{
+ 	color:#fff;
+    transform: scale(1.03);
+    font-weight: bold;
+	border:none;
+}
+
+.btnSearch{background-color: #006899;}
+.btnSearch:hover{background-color: #006899;box-shadow: 0px 5px 20px -4px #4D95B8;}
+.btnImport{background-color: #45A8C1;}
+.btnImport:hover{background-color: #45A8C1;box-shadow: 0px 5px 20px -4px #82CFE2;}
+.btnSave{background-color: #3A77C7;}
+.btnSave:hover{background-color: #3A77C7;box-shadow: 0px 5px 20px -4px #79A9E7;}
+.btnExcel{background-color: #1D6F42;}
+.btnExcel:hover{background-color: #1D6F42;box-shadow: 0px 5px 20px -4px #3B7455;}
+.btnCancel{background-color: #B34471;}
+.btnCancel:hover{background-color: #B34471;box-shadow: 0px 5px 20px -4px #D882A4;}
+
+.btnSave:disabled,
+.btnSave:disabled:hover{
+	color:#aaa;
+	background-color: #6B7D95;
+    transform: scale(1);
+    box-shadow: none;
+    cursor: not-allowed;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="commons/layout :: layout">
+<head>
+<title th:fragment="titles">Biz</title>
+<th:block th:fragment="heads">
+	<link type="text/css" rel="stylesheet"
+		th:href="@{/js/biznexus/jsgrid/jsgrid-theme.css}" />
+	<link type="text/css" rel="stylesheet"
+		th:href="@{/js/biznexus/jsgrid/jsgrid.css}" />
+	<link type="text/css" rel="stylesheet"
+		th:href="@{/js/biznexus/jquery-ui/jquery-ui.min.css}" />
+	<link type="text/css" rel="stylesheet"
+		th:href="@{/js/biznexus/tagList.css}" />
+	<link type="text/css" rel="stylesheet" th:href="@{/css/biz.css}" />
+	<style>
+</style>
+</th:block>
+</head>
+<body th:fragment="contents">
+	<div id="bizContent" class="biz-content width-100 height-100">
+		<canvas id="bizCanvas"></canvas>
+	</div>
+</body>
+<th:block th:fragment="scripts">
+	<script type="text/javascript"
+		th:src="@{/js/biznexus/jquery-ui/jquery-ui.min.js}"></script>
+	<script type="text/javascript"
+		th:src="@{/js/biznexus/jsgrid/jsgrid.js}"></script>
+	<script type="text/javascript"
+		th:src="@{/js/biznexus/bizManagerCommon.js}"></script>
+	<script type="text/javascript" th:src="@{/js/biznexus/bizrender.js}"></script>
+	<script type="text/javascript" th:inline="javascript">
+	var bizScreen = {};
+
+	bizScreen.dataObj = {
+		canvasId : "bizCanvas"
+	};
+
+	$(window).on("resize", function() {
+	});
+
+	window.addEventListener("load", (event) => {
+		$(`#${bizScreen.dataObj.canvasId}`).bizRender({
+			fileName: /*[[${menuName ?: "INDEX"}]]*/ "",
+			layoutPath: "/layout/",
+			imagesPath: "/images/",
+			urlPrefix: "/",
+			rootPath: "/js/biznexus",
+			baseRatio: "mobile",
+			interval: 60 * 1000,
+			onChange: function(type, param) {
+			},
+			onTimeChanged: function(time) {
+			},
+			onSizeChanged: function(isFullscreen) {
+			},
+			onItemClickBefore: function(shape) {
+			},
+			onItemClick: function(e, data) {
+			}
+		});
+	});
+	</script>
+</th:block>
+</html>

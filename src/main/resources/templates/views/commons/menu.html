@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>메뉴</title>
+</head>
+<body>
+	<header class="header-box" th:fragment="menu">
+		<nav class="nav-box">
+			<ul>
+				<li><a th:href="@{/logout}">로그아웃</a></li>
+				<li><a th:href="@{/home}">홈</a></li>
+				<li><a th:href="@{/biz?menuName=index}">비즈메뉴1</a></li>
+				<li><a th:href="@{/biz?menuName=index}">비즈메뉴2</a></li>
+				<li><a th:href="@{/biz?menuName=index}">비즈메뉴3</a></li>
+				<li><a th:href="@{/biz?menuName=index}">비즈메뉴4</a></li>
+			</ul>
+		</nav>
+	</header>
+</body>
+</html>

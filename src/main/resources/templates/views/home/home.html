@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="commons/layout :: layout">
+<head>
+<title th:fragment="titles">HOME</title>
+<th:block th:fragment="heads">
+	<style>
+</style>
+</th:block>
+</head>
+<body th:fragment="contents">
+	<h1 th:text="'안녕하세요, ' + ${name} + '님!'">Hello</h1>
+</body>
+<th:block th:fragment="scripts">
+	<script type="text/javascript">
+		console.log("[[${name}]]");
+	</script>
+</th:block>
+</html>

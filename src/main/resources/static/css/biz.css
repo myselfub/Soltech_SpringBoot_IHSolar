@@ -1,0 +1,16 @@
+/* BizNexus */
+.biz-content {
+	display: flex;
+	place-content: center;
+	place-items: center;
+	position: relative;
+	margin: 0 auto;
+	overflow-y: auto;
+	/* aspect-ratio: 16 / 9; */
+}
+
+.biz-content canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}

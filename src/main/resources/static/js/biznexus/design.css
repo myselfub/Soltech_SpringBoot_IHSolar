@@ -1,0 +1,136 @@
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.blinking-button {
+	animation: blink 1s infinite; 
+	padding: 0px 0px 0px 0px;
+}
+    
+.icon24 {
+	width:24px;
+	height:24px;
+	cursor:pointer;
+}
+.icon48 {
+	width:48px;
+	height:48px;
+	cursor:pointer;
+}
+.table_style {
+	display: flex;
+    justify-content: center;
+}
+label {
+	font-size:0.8rem !important;
+}
+.table_style td, 
+.table_style input[type=number] {
+	font-size:0.8rem !important;
+}
+
+.button24 {
+	
+	padding: 0px 0px 0px 0px;
+}
+
+.button24.active {
+	background-color: green;
+}
+
+.vert-line {
+  	border-left : thin solid gray;
+  	margin-left:4px;
+  	margin-right:4px;
+  	display:inline;
+}
+		
+#Graphic1, #Graphic1_back {
+	position: absolute;
+}
+
+#Graphic1_back {
+	z-index: 0;
+}
+
+#Graphic1 {
+	z-index: 1;
+	cursor: default;
+}
+
+td.td-vert-style input[type=radio],
+td.td-vert-style input[type=checkbox] {
+	display: none;
+}
+
+input[type=radio]:checked+img,
+input[type=checkbox]:checked+img {
+	background-color: SpringGreen;
+}
+
+button:disabled,
+input[type=radio]:disabled+img,
+input[type=checkbox]:disabled+img {
+	cursor:default;
+	opacity:0.3;
+}
+
+#editor { 
+	width: 100%;
+  	height: 100%;
+  	position: relative;
+}
+
+.image_item {
+	height:80px; 
+	width:auto;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid;
+}
+
+#select_image_list {
+	height:200px;
+	display:grid; 
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#effect_by_color_list_table td {
+	padding: 4px 4px 4px 4px;	
+}
+
+#effect_by_image_list_table td {
+	padding: 4px 4px 4px 4px;	
+}

@@ -1,0 +1,81 @@
+#SexyAlertBox-Box {
+  /* padding-bottom: 24px; */
+ /*  background: url('../../images/alertBox/bg-box-bottom.png') bottom left no-repeat !important;
+  background: url('../../images/alertBox/bg-box-bottom.gif') bottom left no-repeat; */
+  width:410px;
+}
+
+#SexyAlertBox-InBox {
+	background:white;
+	border-radius:10px;
+	/* padding:10px; */
+	border:2px solid #283A50;
+  /* padding-top: 15px; */
+ /*  background: url('../../images/alertBox/bg-box-top.png') top left no-repeat !important;	
+  background: url('../../images/alertBox/bg-box-top.gif') top left no-repeat;	 */
+}
+
+#SexyAlertBox-BoxContent {
+  /* background: url('../../images/alertBox/bg-box-body.png') top left repeat-y !important;
+  background: url('../../images/alertBox/bg-box-body.gif') top left repeat-y; */
+  /* padding: 0px 20px; */
+}
+
+#SexyAlertBox-BoxContenedor {
+  /* padding: 0px 0px 5px 55px; */
+  text-align: center;
+  /* font-family:Verdana; */
+  font-size:15px;
+  color:#000;
+}
+
+#SexyAlertBox-BoxContenedor h1,#SexyAlertBox-BoxContenedor h2,#SexyAlertBox-BoxContenedor h3,#SexyAlertBox-BoxContenedor b,#SexyAlertBox-BoxContenedor strong{
+  text-align: center;
+  /* font-family:Verdana; */
+  font-size:14px;
+  color:white;
+  font-weight:bold;
+  margin-bottom:15px;
+  padding:7px;
+  border-bottom:1px solid gray;
+  background:#283A50;
+  border-radius:7px 7px 0px 0px;
+  margin-top: 0px;
+}
+
+#SexyAlertBox-Buttons{
+  text-align:center;
+}
+
+#SexyAlertBox-Buttons input {
+  margin: 10px 10px;
+}
+
+#SexyAlertBox-BoxContenedor p{
+	padding:20px 20px;
+	margin-bottom: 0px;
+}
+
+#SexyAlertBox-BoxContenedor #BoxPromptInput{
+  margin-top:5px;
+}
+
+#SexyAlertBox-Box .BoxAlert {
+  /* background: url('../../images/alertBox/dialog-warning.png') top left no-repeat; */
+}
+
+#SexyAlertBox-Box .BoxConfirm {
+  /* background: url('../../images/alertBox/dialog-help.png') top left no-repeat; */
+}
+
+#SexyAlertBox-Box .BoxPrompt {
+  /* background: url('../../images/alertBox/dialog-help.png') top left no-repeat; */
+}
+
+#SexyAlertBox-Box .BoxInfo {
+  /* background: url('../../images/alertBox/dialog-information.png') top left no-repeat; */
+}
+
+#SexyAlertBox-Box .BoxError {
+  /* background: url('../../images/alertBox/dialog-error.png') top left no-repeat; */
+}

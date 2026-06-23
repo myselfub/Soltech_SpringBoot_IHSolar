@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-test",
+    "version": "2.7.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-test-2.7.18.jar",
+          "url": "spring-boot-test-2.7.18.jar",
+          "size": 239408,
+          "sha512": "d2d5c32cdf3ae0821d07970360aad49f19842c6e6a73e965cf4b4ccb5c1f990c16936fec28812f1189658edd384d95b49ae2a33b6f757f4a9fb48dc57298736c",
+          "sha256": "9804c3d7d9d8212c0cee80f1c7df50b5e63057c4433ec00bd87cc64cbfcaa4c8",
+          "sha1": "865a0347b856d8672a3e5893564d0f01b10e248d",
+          "md5": "e0d6a86b3fa1015f5a06c6cfbef2b007"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.7.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-test-2.7.18.jar",
+          "url": "spring-boot-test-2.7.18.jar",
+          "size": 239408,
+          "sha512": "d2d5c32cdf3ae0821d07970360aad49f19842c6e6a73e965cf4b4ccb5c1f990c16936fec28812f1189658edd384d95b49ae2a33b6f757f4a9fb48dc57298736c",
+          "sha256": "9804c3d7d9d8212c0cee80f1c7df50b5e63057c4433ec00bd87cc64cbfcaa4c8",
+          "sha1": "865a0347b856d8672a3e5893564d0f01b10e248d",
+          "md5": "e0d6a86b3fa1015f5a06c6cfbef2b007"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-2.7.18-javadoc.jar",
+          "url": "spring-boot-test-2.7.18-javadoc.jar",
+          "size": 331641,
+          "sha512": "7d9c6a547432fe45c0d9ca9f446f86ae06a9c5557631ba8d9b979c5fd511fec3c14f6e7c597c35f99a47501a9f6ab563746872572ca8db32ec49f5409b4cfba2",
+          "sha256": "d404aa822c305d71d9cb0c6d608dc72e86bb1dcd4e146eecd286bdc1962b0a64",
+          "sha1": "b2f87e834284c70327f745ba62a04a11d9372307",
+          "md5": "b90a93740dead1e178b9a4da8291941a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-2.7.18-sources.jar",
+          "url": "spring-boot-test-2.7.18-sources.jar",
+          "size": 164768,
+          "sha512": "455bc148a02bb7f03d623c6a5ac504a1b82f6bf74348a0cb692082c6a72bfe7263073e59ef50bd3a95124a45798dc042d597e21b1ef94651b4f14d8126f7953b",
+          "sha256": "8b824ba7dc669bfb592ddb5f1e7b98ab18770091ffb791d547c4caaa2df92b77",
+          "sha1": "45c7ed84846a5454790fb9e62d045987e657fcfc",
+          "md5": "63a170c5357f9720c7229cddc34b9d1d"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-2.7.18.jar",
+          "url": "spring-boot-test-2.7.18.jar",
+          "size": 239408,
+          "sha512": "d2d5c32cdf3ae0821d07970360aad49f19842c6e6a73e965cf4b4ccb5c1f990c16936fec28812f1189658edd384d95b49ae2a33b6f757f4a9fb48dc57298736c",
+          "sha256": "9804c3d7d9d8212c0cee80f1c7df50b5e63057c4433ec00bd87cc64cbfcaa4c8",
+          "sha1": "865a0347b856d8672a3e5893564d0f01b10e248d",
+          "md5": "e0d6a86b3fa1015f5a06c6cfbef2b007"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-test-maven-optional",
+          "version": "2.7.18"
+        }
+      ]
+    },
+    {
+      "name": "mavenOptionalRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-test-2.7.18.jar",
+          "url": "spring-boot-test-2.7.18.jar",
+          "size": 239408,
+          "sha512": "d2d5c32cdf3ae0821d07970360aad49f19842c6e6a73e965cf4b4ccb5c1f990c16936fec28812f1189658edd384d95b49ae2a33b6f757f4a9fb48dc57298736c",
+          "sha256": "9804c3d7d9d8212c0cee80f1c7df50b5e63057c4433ec00bd87cc64cbfcaa4c8",
+          "sha1": "865a0347b856d8672a3e5893564d0f01b10e248d",
+          "md5": "e0d6a86b3fa1015f5a06c6cfbef2b007"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.springframework.boot",
+          "name": "spring-boot-test-maven-optional",
+          "version": "2.7.18"
+        }
+      ]
+    }
+  ]
+}
